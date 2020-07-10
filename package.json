@@ -1,0 +1,23 @@
+{
+  "name": "dataappwithnodejsexpress",
+  "version": "1.0.0",
+  "description": "app to demostrate data storage, edit, update and delete using node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anabiz/dataAppWithNodejsExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anabiz/dataAppWithNodejsExpress/issues"
+  },
+  "homepage": "https://github.com/anabiz/dataAppWithNodejsExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
