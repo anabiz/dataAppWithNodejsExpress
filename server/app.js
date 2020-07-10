@@ -19,9 +19,12 @@ app.post('/insert', (request, response) =>{
 app.get('/getAll', (request, response) =>{
     console.log('test');
     const db =  dbservice.getDbServiceInstance();
-    response.json({
-        success: true
-    });
+    const result = db.getAllData();
+    result
+    .then(data => response.json({data:data}))
+    .catch(err => console.log(err));
+    
+
 
 });
 
